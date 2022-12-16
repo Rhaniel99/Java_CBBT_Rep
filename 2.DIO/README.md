@@ -49,7 +49,7 @@ Para criar construtor com argumentos opcionais, construtor CurrentAccount.
 - ```Valores armazenados em memoria que não muda.```
 ### **Variaveis**
 - ```Sempre no singular, com exceções se for array. Idioma unico```
-	-  *```Obs.: Variaveis maiusculas apenas quando o valor não pode ser alterado (FINAL).```*
+	-  *Variaveis maiusculas apenas quando o valor não pode ser alterado (FINAL).*
 ### **Métodos**
 - ```Sempre nomeado como verbo, nomeclatura padrão "camelCase". Função ou sub-rotinas disponiveis dentro das classes. (Ações).```
 	-  *Void para caso o metodo não retorne nenhum valor*
@@ -102,9 +102,22 @@ Para criar construtor com argumentos opcionais, construtor CurrentAccount.
 	- `` float, double(mais utilizado).``
 	- *float tem que ter um F no final.*
 - ##### Boolean e Char.
-
-
-	
-
-
-
+### **Palavras reservadas**
+- ##### Modificadores de acesso
+	- ``public, private, protected.``
+- ##### Modificadores de classe
+	- ``extends, abstract, final, implements, interface, new, static, synchronized, transient.``
+	- ``abstract`` torna os metodos obrigatorios nos filhos.
+	-  ``new `` cria um novo objeto, instanciando um construtor.
+- ##### Controle de fluxo dentro do código
+	- ``break, case, continue.``
+	- ``break`` sai do bloco de código.
+	- ``case`` executa um bloco dependendo do switch.
+	- ``continue`` pula o bloco.
+### **Operações**
+| soma | sub | mult | divisao | modulo |
+|-|-|-|-|-|
+|+|  -|  *|  /|  % | 
+-  ##### Incrementação ++
+	- *é igual  ``a: numero = numero + 1``*
+### **Classe String**
