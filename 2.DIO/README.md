@@ -31,6 +31,7 @@
 - Maven archetype list
 - instrução de execução do comando mvn archetype
 - interface
+* * *
 ## Curiosidades
 - métodos são () ?
 - argumento são os valores/variaveis
@@ -38,6 +39,7 @@
 - Literal new força a criação de um novo objeto, aparentemente é sempre melhor usar o literal. 
 Para formatar, arquivo em People.java
 Para criar construtor com argumentos opcionais, construtor CurrentAccount.
+* * *
 ## Assuntos
 ### **Java SE**
 - ```Biblioteca de componentes visuais.```
@@ -50,15 +52,15 @@ Para criar construtor com argumentos opcionais, construtor CurrentAccount.
 	-  *```Obs.: Variaveis maiusculas apenas quando o valor não pode ser alterado (FINAL).```*
 ### **Métodos**
 - ```Sempre nomeado como verbo, nomeclatura padrão "camelCase". Função ou sub-rotinas disponiveis dentro das classes. (Ações).```
-	-  *```Void para caso o metodo não retorne nenhum valor```*
-	- `public = Ele estará visivel por todo o sistema.` 
+	-  *Void para caso o metodo não retorne nenhum valor*
+	- public = Ele estará visivel por todo o sistema.
 	```java
 					public double somar(int num1, int num2){
 					//logica
 					return ...;
 					}
 	```
-	- `utilizando metodo sem um retorno.`
+	- Utilizando metodo sem um retorno.
 		```java
 						public void imprimir(String texto){
 					}
@@ -69,7 +71,7 @@ Para criar construtor com argumentos opcionais, construtor CurrentAccount.
 	```java
 	String resultado = a == b ? "Verdadeiro" : "Falso";
 	```
-	- ```É possivel usar um valor inteiro também no retorno.```
+	- É possivel usar um valor inteiro também no retorno.
 	```java
 	int resultado = a == b ? 1 : 0;
 	```
@@ -92,11 +94,17 @@ Para criar construtor com argumentos opcionais, construtor CurrentAccount.
 ### **Primitivos**
 - ##### Inteiros
 	- `` byte, short, int(mais utilizado), long.``
-	- ``Exemplo de conversão para short.``
+	- Exemplo de conversão para short.
 	```java
 	short numeroCurto2 = (short) numeroNormal;
 	```
 - ##### Fracionarios
 	- `` float, double(mais utilizado).``
-	- *``float tem que ter um F no final.``*
+	- *float tem que ter um F no final.*
 - ##### Boolean e Char.
+
+
+	
+
+
+
