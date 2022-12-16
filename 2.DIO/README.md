@@ -121,3 +121,54 @@ Para criar construtor com argumentos opcionais, construtor CurrentAccount.
 -  ##### Incrementação ++
 	- *é igual  ``a: numero = numero + 1``*
 ### **Classe String**
+- ##### length 
+	- ``retorna a quantidade de caractere.``
+	```java
+	System.out.println("Hello, World!".length());
+	```
+- ##### equals 
+	- ``método da classe Object utilizado para testar a relação de igualdade entre dois objetos.``
+	```java
+	if (nome1.equals(nome2)) {System.out.println("Os nomes são iguais!")};
+	```
+- ##### equalsIgnoreCase  
+	- ``Esse método ignora a distinção entre letras maiúsculas e minúsculas nas duas strings comparadas.``
+	```java
+	if(nome1.equalsIgnoreCase(nome2)) {System.out.println("Os nomes são iguais!");}
+	```
+- ##### compareTo  
+	- > Esse método pode retornar 0 se as strings forem iguais, um número negativo se a string que invoca o compareTo for menor que a string que é passada como um argumento
+		e um número positivo se a string que invoca o compareTo for maior que a string que é passada como argumento.
+	```java
+	System.out.println("nome2.compareTo(nome1) = "+nome2.compareTo(nome1));
+	System.out.println("nome1.compareTo(nome2) = "+nome1.compareTo(nome2));
+	```
+- ##### concat  
+	-  ``Existem duas formas de unir duas ou mais sequências de caracteres. A mais comum dentre elas é utilizando o operador de adição. ``
+	```java
+	String nomeCompleto = nome + sobrenome;
+	String nomeCompleto = nome.concat(sobrenome);
+	```
+- ##### String.valueOf
+	- > valueOf é um método estático da classe String, que não precisa de uma instância para ser invocado. Ele converte um tipo primitivo em um objeto do tipo String. O Código 15 demonstra como utilizar esse método.
+	```java
+	double numero = 102939939.939;
+	boolean booleano = true;
+
+	System.out.println("Retorna Valor : " + String.valueOf(numero));
+	System.out.println("Retorna Valor: " + String.valueOf(booleano));
+	```
+- ##### charAt
+```java
+	String nomeCurso = "JAVA";
+
+	if(nomeCurso.charAt(1) == ‘A’) {
+		System.out.println(“O caractere A está na posição 1”);}
+```
+### **JavaDoc**
+- ``Para documentação.``
+- ``@param`` numeroUm este é o primeiro parametro.
+- 	``/``  comentario de uma linha.
+- ``/* */ ``  comentario e varias linhas.
+- ``/** */ ``  para documentação.
+### **Estruturas**
